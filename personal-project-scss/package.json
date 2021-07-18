@@ -1,0 +1,23 @@
+{
+    "name": "personal-project-scss",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "node-sass --watch --recursive styles/main.scss build/main.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/datoad4510/personal-project-scss.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/datoad4510/personal-project-scss/issues"
+    },
+    "homepage": "https://github.com/datoad4510/personal-project-scss#readme",
+    "dependencies": {
+        "node-sass": "^5.0.0"
+    }
+}

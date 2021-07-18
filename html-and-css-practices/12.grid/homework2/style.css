@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid div {
+    background-color: rgb(211, 207, 207);
+}
+
+.grid {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: 220px 100px repeat(3, 220px);
+}
+
+
+.px-220 {
+    grid-column: span 2;
+}
+
+.px-100 {
+    grid-column: span 1;
+}
+
+.px-700 {
+    grid-column: span 6;
+}
+
+.px-460 {
+    grid-column: span 4;
+}

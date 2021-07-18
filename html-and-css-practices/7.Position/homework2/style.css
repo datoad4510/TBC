@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+    background-image: url(image.jpg);
+    width: 800px;
+    height: 400px;
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    margin-top: 20vh;
+}
+
+.text-container {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.orange-box span {
+    background-color: orangered;
+    color: white;
+    font-size: 48px;
+    padding: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#left-arrow {
+    background-color: white;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#right-arrow {
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    font-size: 72px;
+}
+
+h2 {
+    color: orangered;
+    font-size: 30px;
+    width: 400px;
+}
+
+h1 span {
+    color: brown;
+    background-color: white;
+}

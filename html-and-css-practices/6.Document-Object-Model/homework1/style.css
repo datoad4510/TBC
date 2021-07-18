@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.template {
+    border-color: rgb(235, 231, 231);
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(235, 231, 231);
+}
+
+.padded {
+    padding: 10px;
+}
+
+.large {
+    font-size: large;
+}
+
+.user-image {
+    width: 150px;
+    margin-top: 3%;
+}
+
+.inline-icon {
+    width: 20px;
+}
+
+.floated-right-container {
+    float: right;
+    display: flex;
+    column-gap: 5px;
+}
+
+#right-icon {
+    float: right;
+}

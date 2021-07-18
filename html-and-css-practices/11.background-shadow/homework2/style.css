@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    src: url(assets/fonts/PTSans-Bold.ttf);
+    font-family: pt;
+}
+
+.image-container {
+    position: relative;
+    width: 1925pt;
+    height: 1080pt
+}
+
+#first-image {
+    z-index: -1;
+    width: 1925pt;
+    height: 1078pt;
+}
+
+#gradient {
+    position: absolute;
+    top: 0;
+    width: 1925pt;
+    height: 1080pt;
+    z-index: 0;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 1) 0%,
+        rgba(255, 235, 235, 0) 100%
+    );
+}
+
+#second-image {
+    position: absolute;
+    z-index: 1;
+    width: 2092pt;
+    height: 1361pt;
+    top: 0;
+    left: 0;
+    /* top: 382pt;
+    left: 185pt; */
+}
+
+
+#text {
+    font-size: 200pt;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    color: white;
+    font-family: pt;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    letter-spacing: 50px;
+}

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Lato-Black;
+    src: url(fonts/Lato-Black.ttf);
+}
+
+.container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: Lato-Regular;
+    font-size: 30px;
+    margin-bottom: 48.3px;
+}
+
+#alerts-container {
+    display: grid;
+    grid-template-columns: 570px 570px;
+
+    gap: 30px;
+
+    .alert1 {
+        i {
+            color: #A47503;
+        }
+    }
+    .alert2 {
+        i {
+            color: #558502;
+        }
+    }
+    .alert3 {
+        i {
+            color: #D52E13;
+        }
+    }
+
+    .alert {
+        width: 570px;
+        height: 150px;
+        border-radius: 10px;
+        border: 1px solid #e2e6e7;
+
+        padding-right: 70px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 57px;
+        position: relative;
+        .x {
+            position: absolute;
+            right: 20.9px;
+            top: 14.6px;
+
+            color: #a1b1bc;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: Lato-Regular;
+        }
+
+        .img-container {
+            float: left;
+            margin-right: 35px;
+            position: relative;
+            i {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+
+        h3 {
+            font-family: Lato-Black;
+            font-size: 14px;
+        }
+        p {
+            color: #a1b1bc;
+            font-size: 14px;
+            font-family: Lato-Regular;
+        }
+    }
+
+    .long-alert {
+        width: 1170px;
+        height: 150px;
+        border-radius: 10px;
+        border: 1px solid #e2e6e7;
+
+        padding-right: 70px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        padding-left: 57px;
+        position: relative;
+        .x {
+            position: absolute;
+            right: 20.9px;
+            top: 14.6px;
+
+            color: #a1b1bc;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: Lato-Regular;
+        }
+
+        .img-container {
+            float: left;
+            margin-right: 35px;
+        }
+        h3 {
+            font-family: Lato-Black;
+            font-size: 14px;
+        }
+        p {
+            color: #a1b1bc;
+            font-size: 14px;
+            font-family: Lato-Regular;
+        }
+    }
+}
